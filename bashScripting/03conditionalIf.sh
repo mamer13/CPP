@@ -9,3 +9,8 @@ else
     echo "Zero"
 fi
 
+read -p "Enter a name: " name
+if [ "$name" = "Mohamed" ]; then  # Compare string equality
+  echo "Correct name"               # Print message if equal
+fi
+
