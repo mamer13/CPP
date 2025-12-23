@@ -1,0 +1,14 @@
+#!/bin/bash
+# Simple backup script
+
+source_dir="./documents"
+backup_dir="./backup"
+date=$(date +%Y-%m-%d)
+
+if [ ! -d "$backup_dir" ]; then
+    mkdir -p "$backup_dir"
+fi
+
+tar -czf "$backup_dir/backup-$date.tar.gz" "$source_dir"
+echo "Backup completed: $backup_dir/backup-$date.tar.gz"
+

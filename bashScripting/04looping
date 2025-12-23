@@ -1,0 +1,17 @@
+#!/bin/bash
+for i in 1 2 3 4 5; do
+    echo "Number: $i"
+done
+
+count=1
+
+for j in {1..5}; do # Loop through numbers 1 to 5 efficiently using brace expansion
+echo "Íteration: $j" # Print the current number
+done
+
+
+while [ $count -le 5 ]; do
+    echo "Count: $count"
+    ((count++))
+done
+

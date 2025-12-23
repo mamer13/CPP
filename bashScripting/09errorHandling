@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cp file1.txt file2.txt       # Copy file
+if [ $? -ne 0 ]; then        # Check last command exit code
+  echo "Copy failed"         # Print error message if failed
+fi
+

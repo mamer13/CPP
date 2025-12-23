@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#arrays
+arr=("apple" "banana" "cherry")  # Define array
+echo ${arr[1]}                     # Access second element
+
+#Associative Arrays
+declare -A capitals                 # Declare associative array
+capitals[Germany]="Berlin"          # Assign key-value
+capitals[France]="Paris"            # Assign another key-value
+echo ${capitals[Germany]}            # Access value
+
