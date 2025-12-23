@@ -1,4 +1,4 @@
-# C++ Problem Solving – Interview Preparation
+# C++ Problem Solving
 
 This repository is dedicated to technical interview preparation using C++.  
 The file `problem_solving_practice.cpp` contains solutions to common coding interview problems, focusing on clear logic, optimal complexity, and interview-ready code.
