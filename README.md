@@ -1,72 +1,55 @@
-# C++ Problem Solving
+# Embedded Linux Practice – C++ & Bash Scripting
 
-This repository is dedicated to technical interview preparation using C++.  
-The file `problem_solving_practice.cpp` contains solutions to common coding interview problems, focusing on clear logic, optimal complexity, and interview-ready code.
-
----
-
-## 🎯 Goals
-
-- Improve algorithmic and problem-solving skills
-- Practice common coding interview patterns
-- Write clean, readable, and explainable C++ code
-- Prepare for technical interviews and coding assessments
+This repository is dedicated to **practicing Embedded Linux development concepts** using **C++ and Bash scripting**.  
+It focuses on building hands-on experience with Linux-based systems, system-level programming, and automation commonly used in embedded environments.
 
 ---
 
-## 📂 File Structure
+## 🎯 Purpose
 
-problem_solving_practice.cpp  
-Contains multiple interview-style problems implemented in C++.
+- Practice Embedded Linux development fundamentals
+- Develop system-level thinking using **C++**
+- Use **Bash scripting** for automation and system interaction
+- Understand how applications interact with the Linux operating system
+- Write clean, maintainable, and practical code
 
 ---
 
-## 📝 Solution Approach
+## 📂 Repository Structure
 
-Each problem is solved with an interview mindset:
+- C++ source files for system-level and problem-solving exercises
+- Bash scripts for Linux usage, automation, and system tasks
+- Small, focused examples reflecting real Embedded Linux workflows
 
-- Start with a simple or brute-force idea
-- Improve toward an optimized solution
-- Handle edge cases explicitly
-- Keep the code easy to explain during an interview
-- Prioritize clarity over unnecessary optimizations
+---
+
+## 📝 Development Approach
+
+All implementations focus on practical Embedded Linux usage:
+
+- Clear and readable code
+- Explicit handling of edge cases
+- Practical interaction with the operating system
+- Emphasis on correctness and maintainability
+- Simple examples that can be extended to real systems
 
 ---
 
 ## ⚙️ Requirements
 
-- C++ compiler supporting C++11 or newer
+- Linux environment (native Linux, WSL, or Git Bash)
+- C++ compiler supporting **C++11 or newer**
+- Bash shell
 
 Example:
-g++ --version
+g++ --version  
+bash --version
 
 ---
 
-## ▶️ Compile and Run
+## ▶️ Build and Run
 
-g++ problem_solving_practice.cpp -o interview_prep  
-./interview_prep
-
----
-
-## 📈 Future Improvements
-
-- Add problem difficulty labels (Easy / Medium / Hard)
-- Reference problem sources (LeetCode, HackerRank, etc.)
-- Split problems into categorized files
-- Add comments explaining time and space complexity
-- Add unit tests
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome.  
-Feel free to add new problems, optimize solutions, or improve documentation.
-
----
-
-## 📄 License
-
-This project is intended for educational and interview preparation purposes.  
-You are free to use, modify, and share the code.
+### Compile and run C++ programs
+```bash
+g++ file_name.cpp -o output
+./output
