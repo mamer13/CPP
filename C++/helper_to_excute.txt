@@ -1,0 +1,11 @@
+##to run easy.cpp file: 
+g++ easy.cpp -o easy
+./easy
+
+##to run easy.cpp file: 
+g++ medium.cpp -o medium
+./medium
+
+##to run hard.cpp file: 
+g++ hard.cpp -o hard
+./hard
